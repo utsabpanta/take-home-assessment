@@ -1,0 +1,16 @@
+# Ensure consistent line endings
+* text=auto
+*.ts text
+*.tsx text
+*.js text
+*.json text
+*.md text
+
+# Binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.woff binary
+*.woff2 binary

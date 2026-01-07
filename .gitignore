@@ -1,0 +1,52 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+*.lcov
+
+# Production
+build/
+dist/
+*.tsbuildinfo
+
+# TypeScript build artifacts
+backend/**/*.js
+backend/**/*.d.ts
+backend/**/*.js.map
+!backend/jest.config.js
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# LocalStack
+localstack-data/
+
+# Misc
+*.pem
+.cache/
+temp/
+tmp/
