@@ -313,8 +313,6 @@ Common fixes:
 - Ensure PostgreSQL container is running
 - Ensure `DATABASE_URL` in `.env` is correct (default should work)
 
-**For detailed troubleshooting, see [SETUP_TROUBLESHOOTING.md](./SETUP_TROUBLESHOOTING.md)**
-
 ---
 
 ## Cleanup
