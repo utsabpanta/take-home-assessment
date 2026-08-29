@@ -17,6 +17,7 @@ backend/**/*.js
 backend/**/*.d.ts
 backend/**/*.js.map
 !backend/jest.config.js
+!backend/eslint.config.js
 
 # Environment variables
 .env
